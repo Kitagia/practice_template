@@ -1,0 +1,770 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  li {
+    font-size: 16px;
+  
+    display: inline-block;
+  
+    list-style: none;
+  }
+}
+
+ul li,
+.big-button,
+.little-title,
+.section-title,
+.section-title-desc,
+.portfolio .title-desc,
+.testimonials-name,
+.get-in-touch--button {
+  text-transform: uppercase;
+}
+
+.header {
+  padding: 60px 0 145px;
+
+  background-color: #864f9c;
+}
+
+.header {
+  .logo {
+    display: inline-block;
+  
+    margin: 0 0 0 25px;
+  }
+}
+
+.header {
+  .main-menu {
+    float: right;
+  }
+}
+
+.main-menu-ico {
+  display: none;
+}
+
+.header {
+  .main-menu {
+    ul {
+      margin: 0;
+      padding: 0 10px 0 0;
+    }
+  }
+}
+
+.header {
+  .main-menu {
+    a {
+      line-height: 32px;
+    
+      padding: 5px 1.13em;
+    
+      letter-spacing: .2px;
+    }
+  }
+}
+
+.header {
+  .main-menu {
+    a:hover {
+      border-radius: 5px;
+      background-color: #633a79;
+    }
+  }
+}
+
+.header {
+  .tagline {
+    font-size: 42.2px;
+    font-weight: bold;
+    line-height: 48.8px;
+  
+    max-width: 905px;
+    margin: 125px auto 55px;
+  }
+}
+
+.header .tagline,
+.big-button,
+.little-title,
+.little-subtitle,
+.services-col-wrap,
+.progress-skills,
+.section-title,
+.section-subtitle,
+.social-icons,
+.little-specialty,
+.portfolio,
+.section-title-desc,
+.social {
+  text-align: center;
+}
+
+.header .main-menu a,
+.header .tagline,
+.big-button,
+.services,
+.testimonials,
+.get-in-touch,
+.social a {
+  color: #fff;
+}
+
+.big-button {
+  max-width: 293px;
+  padding: 20px 0;
+
+  letter-spacing: .27px;
+
+  border-radius: 5px;
+}
+
+.big-button,
+.section-subtitle,
+.testimonials-specialty,
+.testimonials-name {
+  line-height: 26px;
+}
+
+.big-button,
+.section-subtitle,
+.portfolio-items-menu a,
+.section-title-desc,
+.portfolio-title-desc,
+.testimonials-specialty,
+.get-in-touch--username,
+.get-in-touch--email,
+.get-in-touch--message {
+  font-size: 18px;
+}
+
+.big-button,
+.section-title:after,
+.member-circle-team {
+  display: block;
+}
+
+.big-button,
+.get-in-touch-form,
+.member-circle-team,
+.socials {
+  margin: 0 auto;
+}
+
+.header {
+  .big-button {
+    border-bottom: 4px solid #c86a40;
+    background-color: #eb7d4b;
+  }
+}
+
+.little-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.little-subtitle {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+}
+
+.services {
+  background-color: #16c2a3;
+}
+
+.services {
+  .section-subtitle {
+    margin-bottom: 70px;
+  }
+}
+
+.services-col-img {
+  position: relative;
+
+  height: 145px;
+}
+
+.services-col-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.services {
+  .little-title {
+    padding-top: 50px;
+  }  
+}
+.services {
+  .little-subtitle {
+    max-width: 200px;
+    margin: 25px auto 0;
+  }
+}
+
+.team {
+  .little-subtitle {
+    max-width: 200px;
+    margin: 25px auto;
+  }
+}
+
+.services,
+.team,
+.skills,
+.portfolio,
+.get-in-touch {
+  padding: 110px 0 125px;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+
+  letter-spacing: 4px;
+}
+
+.section-title:after {
+  width: 87px;
+  height: 4px;
+  margin: 20px auto 25px;
+  content: '';
+  background-color: rgba(0, 0, 0, .15);
+}
+
+.section-subtitle {
+  font-weight: 400;
+
+  max-width: 785px;
+  margin: 0 auto 70px;
+
+  letter-spacing: .36px;
+}
+
+.team {
+  background-color: #e7f1f8;
+}
+
+.team,
+.skills {
+  color: #3c4761;
+}
+
+.team {
+  .little-title {
+    padding-top: 35px;
+  }
+}
+
+.social-icons {
+  a {
+    display: inline-block;
+  }
+}
+
+.social-icons {
+  a[href=''] {
+    display: none;
+  }
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background-color: #bdd1df;
+}
+
+.circle[class*='icon'] {
+  margin: 0 5px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
+
+  -ms-background-position: center;
+}
+
+.icon1 {
+  background-image: url(../img/team/facebook-logo.svg);
+}
+
+.icon2 {
+  background-image: url(../img/team/twitter-logo.svg);
+}
+
+.icon3 {
+  background-image: url(../img/team/linkedin-logo.svg);
+}
+
+.icon4 {
+  background-image: url(../img/team/mail_classic.svg);
+}
+
+.little-specialty {
+  font-size: 16px;
+  line-height: 18px;
+
+  padding-top: 15px;
+
+  letter-spacing: .32px;
+
+  color: #30bae7;
+}
+
+.skills {
+  background-color: #fff;
+}
+
+.portfolio {
+  color: #393939;
+  background-color: #fd9;
+}
+
+.portfolio-items-menu {
+  margin: 35px 0 60px;
+}
+
+.pfi-menu li:last-child {
+  margin-right: 0;
+}
+
+.pfi-menu li {
+  margin-right: 5px;
+}
+
+.portfolio-items-menu a:hover {
+  background-color: #fff;
+}
+
+.portfolio-items-menu a {
+  line-height: 19.5px;
+
+  padding: 5px 25px;
+
+  letter-spacing: .36px;
+
+  color: #393939;
+  border-radius: 5px;
+  background-color: #ebc985;
+}
+
+.section-title-desc {
+  line-height: 20px;
+
+  margin: 30px 0 65px;
+}
+
+.portfolio .title-desc {
+  line-height: 19.5px;
+
+  margin: 25px 0 65px;
+
+  letter-spacing: .36px;
+}
+
+.portfolio .big-button {
+  margin-top: 10px;
+
+  border-bottom: 4px solid #14a58c;
+  background-color: #17c2a4;
+}
+
+.testimonials {
+  padding: 90px 0 0;
+
+  background-color: #d74580;
+}
+
+.member-circle-testimonials {
+  margin-bottom: 25px;
+
+  vertical-align: top;
+}
+
+.testimonials-col-wrap {
+  margin-bottom: 140px;
+}
+
+.testimonials-text-wrap {
+  display: inline-block;
+
+  max-width: 375px;
+  margin-left: 45px;
+}
+
+.testimonials-comment {
+  font-size: 21px;
+  font-style: italic;
+  line-height: 31.2px;
+
+  margin-bottom: 25px;
+
+  letter-spacing: .35px;
+}
+
+.testimonials-name {
+  font-size: 24px;
+}
+
+.testimonials-specialty {
+  color: #fd9;
+}
+
+.get-in-touch {
+  background-color: #3c5399;
+}
+
+.get-in-touch-form {
+  max-width: 860px;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+.get-in-touch--username,
+.get-in-touch--email {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px 0 20px 25px;
+
+  border: none;
+  border-radius: 5px;
+  background: #273a71;
+}
+
+.get-in-touch--message {
+  line-height: 18px;
+
+  width: 100%;
+  height: 200px;
+  padding: 25px 15px;
+
+  border: none;
+  border-radius: 5px;
+  background: #273a71;
+}
+
+.get-in-touch--button {
+  margin: 55px auto 0;
+  padding: 20px 73px;
+
+  border: none;
+  border-bottom: 4px solid #289dc5;
+  background-color: #2fb9e7;
+}
+
+.footer {
+  padding: 35px 0;
+
+  background-color: #334b8e;
+}
+
+.social {
+  a:hover {
+    color: #30bae7;
+  }
+}
+
+.social {
+  a {
+    font-size: 24px;
+    line-height: 30px;
+  
+    text-transform: none;
+  }
+}
+
+.social {
+  li {
+    margin-right: 55px;
+  }
+}
+
+.social {
+  li:last-child {
+    margin-right: 0;
+  }
+}
+
+.progress-skills {
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .testimonials-text-wrap {
+    max-width: 305px;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-menu {
+    display: none;
+  }
+
+  .main-menu-ico {
+    display: block;
+    float: right;
+
+    width: 36px;
+    margin-right: 25px;
+  }
+
+  .services-col-wrap,
+  .team-col-wrap,
+  .skills-experience,
+  .testimonials-col-wrap {
+    margin-bottom: 100px;
+  }
+
+  .services,
+  .team,
+  .skills,
+  .testimonials {
+    padding-bottom: 25px;
+  }
+
+  .testimonials-col-wrap {
+    text-align: center;
+  }
+
+  .testimonials-text-wrap {
+    max-width: 375px;
+
+    text-align: left;
+  }
+
+  .social {
+    li {
+      margin-right: 30px;
+    }
+  }
+
+  .social {
+    a {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials-text-wrap {
+    max-width: 365px;
+  }
+
+  .social {
+    li {
+      margin-right: 10px;
+    }
+  }
+
+  .social {
+    a {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 539px) {
+
+  .big-button,
+  .section-subtitle,
+  .portfolio-items-menu a,
+  .section-title-desc,
+  .portfolio-title-desc,
+  .testimonials-specialty,
+  .get-in-touch--username,
+  .get-in-touch--email,
+  .get-in-touch--message {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .services-col-wrap,
+  .team-col-wrap,
+  .skills-experience,
+  .testimonials-col-wrap {
+    margin-bottom: 80px;
+  }
+
+  .services,
+  .team,
+  .skills,
+  .testimonials {
+    padding-bottom: 35px;
+  }
+
+  .little-title {
+    font-size: 20px;
+  }
+
+  .progress-skills>li:before {
+    font-size: 20px;
+  }
+
+  .big-button {
+    max-width: 250px;
+    padding: 15px 0;
+  }
+
+  .section-title,
+  .header .tagline {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .portfolio-items-menu {
+    a {
+      padding: 5px 20px;
+    }
+  }
+
+  .testimonials-text-wrap {
+    display: block;
+
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .testimonials-name {
+    font-size: 22px;
+  }
+
+  .testimonials-comment {
+    font-size: 19px;
+  }
+
+  .get-in-touch--button {
+    padding: 15px 60px;
+  }
+
+  .social {
+    li {
+      margin-right: 5px;
+    }
+  }
+
+  .social {
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 358px) {
+
+  .header .logo,
+  .main-menu-ico {
+    margin: 0;
+  }
+
+  .big-button {
+    max-width: 150px;
+    padding: 10px 0;
+  }
+
+  .big-button,
+  .section-subtitle,
+  .portfolio-items-menu a,
+  .section-title-desc,
+  .portfolio-title-desc,
+  .testimonials-specialty,
+  .get-in-touch--username,
+  .get-in-touch--email,
+  .get-in-touch--message {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pfi-menu {
+    li {
+      margin-right: 3px;
+    }
+  }
+
+  .portfolio-items-menu {
+    a {
+      padding: 5px 5px;
+    }
+  }
+
+  .section-title,
+  .header .tagline {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .section-subtitle {
+    margin: 0 auto 50px;
+  }
+
+  .testimonials-comment {
+    font-size: 16px;
+    line-height: 18px;
+
+    margin-bottom: 15px;
+  }
+
+  .testimonials-name {
+    font-size: 20px;
+  }
+
+  .get-in-touch--username,
+  .get-in-touch--email {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 15px;
+  }
+
+  .get-in-touch--message {
+    height: 130px;
+    padding: 10px 15px;
+  }
+
+  .get-in-touch--button {
+    padding: 10px 15px;
+  }
+}
